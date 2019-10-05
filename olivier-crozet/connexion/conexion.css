@@ -1,0 +1,225 @@
+
+body
+    {
+    background-image:url(terrainart.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Apple Chancery, cursive;
+    color:white;
+    
+    }
+
+header{
+      
+      text-align: center;
+      border:solid 2px #22FF3C;
+      box-shadow: #01136D 2px 6px;
+      background-image:linear-gradient(50deg, white, #0274F9);
+      color:#22FF3C;
+      width: 70%;
+      margin-left: 15%;
+      margin-bottom:1%;
+      }
+section{
+        text-align: center;
+       }
+h1
+    {
+      
+    	text-align: center;
+      color: #22FF3C;
+    }
+
+.titrelogin
+          {
+          	text-align: center;
+          	margin-bottom: 0;
+
+          }      
+
+.entete
+       {
+       	width: %;
+       }
+
+.connexion
+         {
+            margin-bottom: 2%;
+         	text-align: center;
+         	color: green;
+         	font-size: 40px;
+         	
+         }
+
+.paneaulogin
+            {
+            	padding-top: 0;
+            	opacity:0,75;
+            	margin-left: 30%;
+            	width: 40%;
+            	padding-top: 2%;
+            	 
+            	         	
+            }
+
+.fotologin
+          {
+          	text-align: center;
+          	width: 30%;
+          }
+
+
+.psedo
+       {
+       	text-align: center;
+       	margin-top: 5%;
+
+       }
+.mot-de-passe
+           {
+            margin-bottom: 5%;
+            text-align: center;
+           }
+.box1
+     {margin: 1px;
+      width: 65%;
+
+     }
+
+
+.oubli
+      { 
+      	float: right;
+      	
+      }     
+.inscription
+            {
+            	clear: both;
+            	text-align: center;	
+            }
+.logofb
+       {
+       	width: 5%
+       }
+.logoinsta
+         {
+          width: 5%;
+          }
+footer
+      {
+      	display: inline-block;
+      	text-align: center;
+
+      }   
+/*css pour formulaire*/
+
+.soustitre
+            {
+             color: white;
+            }
+
+.formulaire 
+           {
+           	display: flex;
+           	flex-direction: column;
+           	
+           	width: 35%;
+          
+           	margin-left: auto;
+           	margin-right: auto;
+           	overflow: auto;
+           }
+#sexe
+     {
+     width: ;
+     margin-right:0;
+   }
+
+.sexe
+     {
+      float :left;
+     }
+.etude
+      {
+      float:right;
+
+      }     
+
+#titres {
+	display: flex;
+	justify-content: space-between;
+
+}     
+#tel
+    {
+    flex-direction: column;
+
+   margin-top: 5%;}
+
+.presentation {
+               display: flex;
+               flex-direction: column;
+               margin-top: 5%;
+               }  
+.hobbie
+              {
+                display: flex;
+               flex-direction: column;
+               margin-top: 5%;
+              }
+.incriptionbutton
+                 {
+              text-align: center;
+  margin : 0 auto;
+            }
+
+/*css pour motdepasse */
+
+.boomotdepasse
+               {
+                background-image:url(siegevide2.jpg);
+                background-repeat: no-repeat;
+                background-size: cover; 
+                }
+.headermotdepasse
+                {
+
+                  text-align: center;
+                  border:solid 2px #22FF3C;
+                  box-shadow: #01136D 2px 6px;
+                  background-image:linear-gradient(50deg, white, #D90D2F);
+                  color:#22FF3C;
+                  width: 70%;
+                  margin-left: 15%;
+                  margin-bottom:4%;
+                }
+.champmotdepasse
+                {
+                 justify-content: center;
+                 display: flex;
+                 flex-direction: column;
+                 width: 50%;
+                 margin: 0 auto;
+                 font-size: 25px;
+                 color: #22FF3C;
+                }
+#identmotdepasse
+                {
+                 margin-bottom: 5%;
+                 }
+.footandteam
+            {
+              text-decoration: none;
+            }
+.ballonmotdepasse
+                 {
+                  transition: 3s;
+                  transition: left 3s;  
+                float: right;
+                  width: 20%; 
+                 }
+.receptionmotdepasse
+                    {
+                      font-size: 10px;
+                      margin:0 auto;
+                    }

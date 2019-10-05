@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="conexion.css">
+	<title>login</title>
+</head>
+<body>	
+	<header>
+	    	<h1>foot and team</h1>
+	</header>
+    <section>
+	    <article>
+		    <h1 class="soustitre">formulaire d'inscription:</h1>
+	    </article>
+	    <article class="formulaire">		
+		     <label for="identifiants" required>choisisez un identifiant:</label>
+		     <input type="text" name="identifiants" placeholder="entré pseudo">
+		     <label for="mot de passe"required>choisisez un mot de passe:</label>
+		     <input type="text" name="motdepasse" placeholder="entré un mot de passe">
+		     <label for="comfirmation mot de passe"required>comfirmer votre mot de passe :</label>
+		     <input type="text" name="comfirmer mot de passe" placeholder="confirmer votre mot de passe">
+		     <label for="datedenaisance">date de naissance :</label>
+		     <input type="date" name="datedenaisance" placeholder="date de naissance">
+		     <label for="nom" required>nom:</label>
+		     <input type="text" name="nom" placeholder="entré le nom">
+		     <label for="prenom" required>prenom:</label>
+		     <input type="text" name="prenom" placeholder="entré le prenom">
+		     <label for="email" required>email:</label>
+		     <input type="email" name="email" placeholder="email">
+          <from>
+          <div id="titres">
+        		<p id="sexe"> choisir son sexe</p>
+        		<p>niveau d'etude</p>
+          </div>
+	   	  <select class="sexe" name="sexe">
+	          <label for="sexe" >sexe:</label>
+	   	  <datalist>
+	   	    	<option>femme
+	   		    <option>homme
+	     </datalist>
+            
+	   	  <select class="etude" name="etude">
+	   	  <select class="etude" name="etude" size="5">
+	   	  <div class="etude">
+	   				<p>niveau d'etude</p>
+          <datalist>	   	 
+                    <OPTION>aucune
+                    <OPTION>bep
+                    <OPTION>bac
+                    <OPTION>dut
+                    <OPTION>plus
+         </datalist>
+           </div>
+           </from>
+           </SELECT>
+	   	   </select>
+           <div id="tel">
+                    <label for="tel" required>rentré votre numero de telephone:</label>
+		            <input type="text" name="tel" placeholder="telephone">
+	       </div>
+	       <div class ="presentation">
+		            <label for=presentation>presentation</label>		
+                    <textarea name="presentation" rows=5 ></textarea>
+                    </input>
+           </div>
+           <div class="hobie">
+      
+                  	<p>choisisez vos hobie :</p>
+      	            <input  type="checkbox"  name="sport">
+	   	            <label for="sport">voile</label>
+                    <input  type="checkbox"  name="musique">
+	   	            <label for="musique">musique</label>
+	   	            <input  type="checkbox"  name="cinema">
+	            	<label for="cinema">cinema</label>
+	   	            <input  type="checkbox"  name="informatique">
+	   	            <label for="informatique">informatique</label>
+	   	            <input  type="checkbox"  name="art">
+	   	            <label for="art">art</label>
+	   	            <input  type="checkbox"  name="danse">
+	   	            <label for="danse">danse</label>
+	   	            <input  type="checkbox"  name="cuisine">
+	   	            <label for="cuisine">cuisine</label>
+	   	            <input  type="checkbox"  name="voyage">
+	   	            <label for="voyage">voyage</label>
+	       </div>  
+        </article>
+           </div>
+                    <a href="connexion.html"><input class="inscriptionbutton" type="button" value="valider l'inscription"></a>
+	       </div>
+    </section>
+</body>
+</html>
